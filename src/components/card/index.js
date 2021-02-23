@@ -24,7 +24,7 @@ function Card({ data }) {
           <span>{data.tag}</span>
           {data.percent !== undefined && (
             <>
-              <img src="/images/Group 732.png" alt="" />
+              <img src="/images/time.png" alt="" />
               <span> + {data.remaining}</span>
             </>
           )}
